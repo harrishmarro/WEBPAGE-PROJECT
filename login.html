@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"> 
+    <title>login page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<div class="login-box" >
+  <form class="box" action="dummy.html" method="POST">
+  <h1>Login</h1>
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input type="text"  id="username" placeholder="Username" value="" required>
+  </div>
+
+  <div class="textbox">
+    <i class="fas fa-lock"></i>
+    <input type="password" id="password" placeholder="Password" value="" required>
+  </div>
+  <input type="submit"  class="btn" value="Login" onclick="validate()">
+  </form> 
+  <div class="textbox"></div>
+    <h10>IF YOU DOESN'T HAVE AN ACCOUNT?</h10>
+    <a href="signup.html">
+      <button>SIGN UP</button>
+    </a>
+  </div>    
+</div>
+<script src="signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>my first project</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="signup-box">
+    <h1>sign up</h1>
+    <form class="box" action="login.html" method="POST">
+    <div class="textbox">
+        <i class="fas fa-user"></i>
+        <input type="text" id="username" placeholder="username" value="" required>
+    </div>
+    <div class="textbox">
+        <i class="fas fa-envelope"></i>
+        <input type="email" id="email" placeholder="email id" value="" required>
+    </div>
+    <div class="textbox">
+        <i class="fas fa-mobile-alt"></i>
+        <input type="tel" id="mobilenumber" placeholder="mobilenumber" value="" required>
+    </div>    
+    <div class="textbox">
+        <i class="fas fa-key"></i>
+        <input type="password" id="password" placeholder="password" value="" required>
+    </div>
+    <input type="submit" class="btn" value="SIGNUP" onclick="CREATE()">     
+    </form>        
+    <div class="text box"></div>
+    <h7>IF YOU ALREADY HAVE AN ACCOUNT</h7>
+    <a href="login.html">
+    <button>LOGIN</button>
+    </a>
+</div>
+</div>
+<script src="signup.js"></script>
+</body>
+</html>
